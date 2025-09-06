@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="data_eating_interfaces",
-    version="0.2.0",
+    version="0.3.0",
     packages=find_packages(),
     python_requires=">=3.7",
     author="Danilo Silva",
