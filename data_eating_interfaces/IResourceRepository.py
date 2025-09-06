@@ -1,24 +1,24 @@
 from abc import ABC, abstractmethod
 from typing import Any, Optional, List
+from .IResource import IResource
 
 class IResourceRepository(ABC):
-    
     @abstractmethod
     def create(self, data: Any) -> Any:
         pass
     
     @abstractmethod
-    def read(self, id: Any) -> Optional[Any]:
+    def read(self, id: int) -> Optional[IResource]:
         pass
     
     @abstractmethod
-    def update(self, id: Any, data: Any) -> Optional[Any]:
+    def update(self, id: int, data: Any) -> bool:
         pass
     
     @abstractmethod
-    def delete(self, id: Any) -> bool:
+    def delete(self, id: int) -> bool:
         pass
     
     @abstractmethod
-    def list_all(self) -> List[Any]:
+    def get_all(self) -> List[IResource]:
         pass
