@@ -1,0 +1,4 @@
+data_eating_interfaces/__pycache__/*
+data_eating_interfaces.egg-info/*
+tests/__pycache__/*
+tests/Mocks/__pycache__/*
