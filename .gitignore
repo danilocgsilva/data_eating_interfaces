@@ -2,3 +2,5 @@ data_eating_interfaces/__pycache__/*
 data_eating_interfaces.egg-info/*
 tests/__pycache__/*
 tests/Mocks/__pycache__/*
+data_eating_interfaces/Models/__pycache__/*
+data_eating_interfaces/Repositories/__pycache__/*

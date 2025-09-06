@@ -1,4 +1,4 @@
-from data_eating_interfaces.IResourceRepository import IResourceRepository
+from data_eating_interfaces.Repositories.IResourceRepository import IResourceRepository
 from tests.Mocks.mock_resource import MockResource
 
 class MockResourceRepository(IResourceRepository):

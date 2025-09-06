@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
 from typing import Any, Optional, List
-from .IResource import IResource
+from ..Models.IResource import IResource
+from ..IRepository import IRepository
 
-class IResourceRepository(ABC):
+class IResourceRepository(IRepository):
     @abstractmethod
     def create(self, data: Any) -> Any:
         pass

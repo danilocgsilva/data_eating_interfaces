@@ -1,4 +1,4 @@
-from data_eating_interfaces.IResource import IResource
+from data_eating_interfaces.Models.IResource import IResource
 
 class MockResource(IResource):
     def __init__(self, address: str):

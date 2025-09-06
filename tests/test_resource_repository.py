@@ -1,6 +1,6 @@
 import unittest
-from data_eating_interfaces.IResourceRepository import IResourceRepository
-from data_eating_interfaces.IResource import IResource
+from data_eating_interfaces.Repositories.IResourceRepository import IResourceRepository
+from data_eating_interfaces.Models.IResource import IResource
 from tests.Mocks.mock_resource_repository import MockResourceRepository
 from tests.Mocks.mock_resource import MockResource
 
